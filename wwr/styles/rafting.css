@@ -36,7 +36,7 @@ main {
 /* Hero Section */
 .hero {
     position: relative; 
-    background-image: url("../wwr-images/newheroimage.png");
+    background-image: url("./images/heroimage.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -146,8 +146,9 @@ nav {
 
 nav a {
     margin: 0 10px;
-    color: var(--primary-color); 
+    color: var(--secondary-color); 
     font-weight: bold;
+    text-decoration: none;
 }
 
 nav a:hover {
