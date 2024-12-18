@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trips | Whitewater Rafting Adventures</title>
+    <meta name="description" content="Explore our exciting whitewater rafting trips. Find trip details, photos, and booking information to plan your adventure!">
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles/trips.css" /> 
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <img src="./images/logo.jpg" alt="Whitewater Rafting Logo">
+        <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="trips.html">Trips</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section id="cta">
+            <h2>Ready for Adventure?</h2>
+            <p>Contact us today to book your whitewater rafting trip!</p>
+            <a href="contact.html" class="cta-button">Contact Us</a>
+        </section>
+        
+            
+        <section id="trip-descriptions">
+            <article class="trip">
+                <h3>Half-Day Adventure</h3>
+                <img src="images/halfday.jpg" alt="Half-Day Adventure Rafting" />
+                <p>Experience the thrill of whitewater rafting in just a few hours. Perfect for beginners and families!</p>
+            </article>
+            <article class="trip">
+                <h3>Full-Day Experience</h3>
+                <img src="images/fullday.jpg" alt="Full-Day Rafting Adventure" />
+                <p>A full day of adventure on the river with breathtaking views and exciting rapids!</p>
+            </article>
+            <article class="trip">
+                <h3>Overnight Expedition</h3>
+                <img src="images/overnight.jpg" alt="Overnight Rafting Expedition" />
+                <p>Enjoy the ultimate rafting experience with overnight camping and meals provided.</p>
+            </article>
+        </section>
+        
+
+        <section id="trips-table">
+            <h2>Available Trips</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Trip Name</th>
+                        <th>Duration</th>
+                        <th>Difficulty</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Half-Day Adventure</td>
+                        <td>4 Hours</td>
+                        <td>Easy</td>
+                        <td>$50</td>
+                    </tr>
+                    <tr>
+                        <td>Full-Day Experience</td>
+                        <td>8 Hours</td>
+                        <td>Moderate</td>
+                        <td>$100</td>
+                    </tr>
+                    <tr>
+                        <td>Overnight Expedition</td>
+                        <td>2 Days</td>
+                        <td>Hard</td>
+                        <td>$200</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+
+            <!-- Contact Form -->
+            <section class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form action="#" method="post">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="purpose">Purpose of Message</label>
+                    <div>
+                        <input type="radio" id="general-inquiry" name="purpose" value="General Inquiry" required>
+                        <label for="general-inquiry">General Inquiry</label>
+
+                        <input type="radio" id="reservation-question" name="purpose" value="Reservation Question" required>
+                        <label for="reservation-question">Reservation Question</label>
+
+                        <input type="radio" id="website-suggestion" name="purpose" value="Website Suggestion" required>
+                        <label for="website-suggestion">Website Suggestion</label>
+                    </div>
+
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <div>
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                    </div>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <a href="https://wireframe.cc/06oO4g" target="_blank" class="wireframe-link">Wireframe</a>
+        <p>&copy; 2024 Whitewater Adventures - Designed by Tyler Andrew</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="./images/facebook.webp" alt="Facebook" />
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <img src="./images/twitter.webp" alt="Twitter" />
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="./images/instagram.webp" alt="Instagram" />
+            </a>
+        </div>
+        
+    </footer>
+</body>
+</html>
+
+
+
+      
